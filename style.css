@@ -1,0 +1,48 @@
+body{
+    /* height: 100%;
+    width: 100%; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("dojoBody.png");
+}
+
+.grid {
+    width: 400px;
+    height: 600px;
+    background-image: url("dojo.png");
+    position: relative;
+    margin-left: 40rem;
+    margin-top: 10%;
+    font-size: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.doodler {
+    width: 66px;
+    height: 62px;
+    background-image: url('ninja.png');
+    position: absolute;
+}
+
+
+.platform{
+    width: 85px;
+    height: 15px;
+    background-image: url('platform.png');
+    position: absolute;
+}
+
+.grid button{
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    width: 85px;
+    position: absolute;
+    margin-top: 50%;
+    right: 157.5px;
+    text-align: center;
+    border: 2px solid black;
+
+}
